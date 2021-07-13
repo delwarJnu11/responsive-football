@@ -1,5 +1,5 @@
 /*  Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
 
 /*  Common Styles */
 body{
@@ -15,7 +15,7 @@ body{
 }
 .top-wrapper{
     display: flex;
-    width: 1140px;
+    width: 1170px;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -29,27 +29,55 @@ body{
     line-height: 80px;
     font-weight: bold;
 }
-.link-button{
+.link-button a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     background: #E02C6D;
     padding: 10px 24px;
-    transition: transform .2s;
 }
-.link-button:hover {
+.arrow{
+    margin-left: 10px;
+}
+.link-button :hover {
     background-color: crimson;
-    color: #ffffff;
-    transform: scaleX(1.8);
 }
 .image-area{
     width: 556px;
     margin: 100px 0 40px 0;
-    transition: transform 0.5s;
-}
-
-.image-area :hover{
-    transform: rotate(90deg);
 }
 .image-area img{
     max-width: 100%;
+}
+
+/* Players style */
+.players{
+    display: grid;
+    width: 1050px;
+    margin: 70px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 300px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image img{
+    max-width: 100%;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 10px 0;
+    color: #18191F;
+}
+.player-info{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 10px 0;
+    color: #6c6c6c;
 }
