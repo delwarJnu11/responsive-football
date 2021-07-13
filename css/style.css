@@ -34,13 +34,21 @@ body{
     color: white;
     background: #E02C6D;
     padding: 10px 24px;
+    transition: transform .2s;
 }
-.arrow{
-    margin-left: 10px;
+.link-button:hover {
+    background-color: crimson;
+    color: #ffffff;
+    -webkit-transform: scaleX(1.8);
 }
 .image-area{
     width: 556px;
     margin: 100px 0 40px 0;
+    transition: transform 0.5s;
+}
+
+.image-area :hover{
+    transform: rotate(90deg);
 }
 .image-area img{
     max-width: 100%;
