@@ -208,8 +208,8 @@ p.copyright-text {
 @media only screen and (max-width: 668px) {
     .top-wrapper{
         width: 100%;
+        margin: 0 auto;
         padding: 3%;
-        background-color: aqua;
         display: flex;
         flex-direction: column;
     }
@@ -226,6 +226,7 @@ p.copyright-text {
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
 
     }
     .player{
@@ -234,5 +235,45 @@ p.copyright-text {
     }
     .player-image img{
         max-width: 100%;
+    }
+    .highlight{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        margin: 0 auto;
+    }
+    .content-part{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .highlight-image{
+        width: 100%;
+    }
+    .highlight-image img{
+        max-width: 80%;
+    }
+    .gallery, .blogs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .gallery-item img{
+        max-width: 90%;
+    }
+    .blog{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .thumbnail img{
+        max-width: 90%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
     }
 }
