@@ -231,7 +231,9 @@ p.copyright-text {
 
     }
     .player{
-        width: 100%;
+        width: 95%;
+        padding: 15px;
+        margin: 0 auto;
     }
     .player-image img{
         max-width: 100%;
@@ -260,12 +262,12 @@ p.copyright-text {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 10px;
         justify-content: center;
         align-items: center;
     }
     .gallery-item{
     width: 95%;
+    padding: 15px;
     margin: 0 auto;
     }
     .gallery-item img{
