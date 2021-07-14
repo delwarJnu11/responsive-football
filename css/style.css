@@ -229,7 +229,7 @@ p.copyright-text {
 
     }
     .player{
-        width: 100%;
+        width: 90%;
     }
     .player-image img{
         max-width: 100%;
@@ -241,7 +241,7 @@ p.copyright-text {
         padding: 0% 3%;
     }
     .content-part{
-        width: 95%;
+        width: 90%;
         margin-bottom: 20px;
     }
     .highlight-heading{
@@ -252,7 +252,7 @@ p.copyright-text {
 
     }
     .highlight-image{
-        width: 95%;
+        width: 90%;
     }
     .highlight-image img{
         max-width: 100%;
@@ -276,7 +276,7 @@ p.copyright-text {
         width: 90%;
     }
     .blog-details{
-        width: 95%;
+        width: 90%;
     }
     .thumbnail img{
         max-width: 95%;
