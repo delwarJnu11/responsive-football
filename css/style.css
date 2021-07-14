@@ -241,14 +241,14 @@ p.copyright-text {
         padding: 3%;
     }
     .content-part{
-        width: 100%;
+        width: 95%;
         margin-bottom: 20px;
     }
     .highlight-image{
-        width: 100%;
+        width: 95%;
     }
     .highlight-image img{
-        max-width: 80%;
+        max-width: 100%;
     }
     .section-title{
         font-size: 22px;
@@ -266,7 +266,7 @@ p.copyright-text {
     margin: 0 auto;
     }
     .gallery-item img{
-        max-width: 90%;
+        max-width: 100%;
     }
     .blog{
         width: 100%;
