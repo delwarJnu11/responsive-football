@@ -213,15 +213,15 @@ p.copyright-text {
         display: flex;
         flex-direction: column;
     }
-    /* .content-area{
-        width: 100%;
+    .content-area{
+        width: 95%;
     }
     .image-area{
-        width: 100%;
+        width: 95%;
     }
     .image-area img{
         max-width: 100%;
-    } */
+    }
     .players{
         width: 100%;
         display: flex;
@@ -232,8 +232,6 @@ p.copyright-text {
     }
     .player{
         width: 95%;
-        padding: 15px;
-        margin: 0 auto;
     }
     .player-image img{
         max-width: 100%;
@@ -247,6 +245,13 @@ p.copyright-text {
     .content-part{
         width: 95%;
         margin-bottom: 20px;
+    }
+    .highlight-heading{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+
     }
     .highlight-image{
         width: 95%;
