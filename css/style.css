@@ -201,4 +201,38 @@ p.copyright-text {
     line-height: 24px;
     color: #000000;
 }
+/*---------------------
+    Media Queries 
+-----------------------*/
+/* Mobile Device */
+@media only screen and (max-width: 668px) {
+    .top-wrapper{
+        width: 100%;
+        padding: 3%;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-area{
+        width: 100%;
+    }
+    .image-area{
+        width: 100%;
+    }
+    .image-area img{
+        max-width: 90%;
+    }
+    .players{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
 
+    }
+    .player{
+        
+        justify-content: center;
+    }
+    .player-image img{
+        max-width: 100%;
+    }
+}
