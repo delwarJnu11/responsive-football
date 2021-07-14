@@ -213,7 +213,7 @@ p.copyright-text {
         display: flex;
         flex-direction: column;
     }
-    .content-area{
+    /* .content-area{
         width: 100%;
     }
     .image-area{
@@ -221,7 +221,7 @@ p.copyright-text {
     }
     .image-area img{
         max-width: 100%;
-    }
+    } */
     .players{
         width: 100%;
         display: flex;
@@ -266,7 +266,7 @@ p.copyright-text {
         align-items: center;
     }
     .gallery-item{
-    width: 95%;
+    width: 90%;
     padding: 15px;
     margin: 0 auto;
     }
@@ -275,6 +275,8 @@ p.copyright-text {
     }
     .blog{
         width: 95%;
+        padding: 15px;
+        margin: 0 auto;
     }
     .blog-details{
         width: 95%;
