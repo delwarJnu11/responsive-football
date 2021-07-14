@@ -269,7 +269,7 @@ p.copyright-text {
         max-width: 100%;
     }
     .blog{
-        width: 100%;
+        width: 95%;
     }
     .thumbnail img{
         max-width: 90%;
@@ -296,7 +296,7 @@ p.copyright-text {
         width: 45%;
     }
     .image-area img{
-        max-width: 90%;
+        max-width: 100%;
     }
     .players{
         width: 100%;
@@ -325,7 +325,7 @@ p.copyright-text {
         width: 45%;
     }
     .highlight-image img{
-        max-width: 80%;
+        max-width: 100%;
     }
     .section-title{
         font-size: 22px;
@@ -347,7 +347,7 @@ p.copyright-text {
         width: 48%;
     }
     .thumbnail img{
-        max-width: 90%;
+        max-width: 100%;
     }
     .footer{
         display: flex;
