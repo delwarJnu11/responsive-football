@@ -207,6 +207,9 @@ p.copyright-text {
 /* Mobile Device */
 
 @media only screen and (max-width: 688px) {
+    main{
+        width: 100%;
+    }
     .top-wrapper{
         width: 100%;
         padding: 0% 3%;
@@ -232,7 +235,7 @@ p.copyright-text {
         width: 90%;
     }
     .player-image img{
-        max-width: 100%;
+        max-width: 90%;
     }
     .highlight{
         width: 100%;
