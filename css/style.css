@@ -209,15 +209,15 @@ p.copyright-text {
 @media only screen and (max-width: 688px) {
     .top-wrapper{
         width: 100%;
-        padding: 3%;
+        padding: 0% 3%;
         display: flex;
         flex-direction: column;
     }
     .content-area{
-        width: 100%;
+        width: 95%;
     }
     .image-area{
-        width: 100%;
+        width: 95%;
     }
     .image-area img{
         max-width: 100%;
@@ -238,7 +238,7 @@ p.copyright-text {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 3% 0%;
+        padding: 0% 3%;
     }
     .content-part{
         width: 95%;
@@ -265,6 +265,7 @@ p.copyright-text {
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
     .gallery-item{
     width: 100%;
     }
@@ -272,13 +273,13 @@ p.copyright-text {
         max-width: 100%;
     }
     .blog{
-        width: 100%;
+        width: 90%;
     }
     .blog-details{
-        width: 100%;
+        width: 95%;
     }
     .thumbnail img{
-        max-width: 100%;
+        max-width: 95%;
     }
     .footer{
         display: flex;
