@@ -67,17 +67,50 @@ body{
 .player-image img{
     max-width: 100%;
 }
-.player-name{
+.player-name, .blog-heading{
     font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     margin: 10px 0;
     color: #18191F;
 }
-.player-info{
+.player-info, .blog-description{
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
     margin: 10px 0;
     color: #6c6c6c;
 }
+
+/* Blog style */
+.blog-section{
+    width: 100%;
+}
+.section-title{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #18191F;
+}
+.blogs{
+    display: grid;
+    width: 1050px;
+    margin: 70px auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 30px;
+}
+.blog{
+    width: 500px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail img{
+    max-width: 100%;
+}
+
