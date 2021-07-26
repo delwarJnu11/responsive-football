@@ -22,7 +22,7 @@ body{
     display: flex;
     width: 1170px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .content-area{
     width:485px;
@@ -208,29 +208,34 @@ p.copyright-text {
 
 @media only screen and (max-width: 688px) {
     main{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 15px;
     }
     .top-wrapper{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         padding: 0% 3%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .content-area{
-        width: 95%;
+        width: 90%;
     }
     .image-area{
-        width: 95%;
+        width: 90%;
     }
     .image-area img{
         max-width: 100%;
     }
     .players{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
     }
     .player{
@@ -240,7 +245,8 @@ p.copyright-text {
         max-width: 90%;
     }
     .highlight{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         padding: 0% 3%;
@@ -268,13 +274,14 @@ p.copyright-text {
         line-height: 35px;
     }
     .gallery, .blogs{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .gallery-item{
-    width: 100%;
+    width: 90%;
     }
     .gallery-item img{
         max-width: 100%;
@@ -291,82 +298,10 @@ p.copyright-text {
     .footer{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
-}
-
-
-/* Tablet Device */
-@media only screen and (min-width:688) and (max-width:992){
-    .top-wrapper{
-        width: 100%;
-        padding: 3%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr)
-    }
-    .content-area{
-        width: 45%;
-    }
-    .image-area{
-        width: 45%;
-    }
-    .image-area img{
+    .logo img{
         max-width: 100%;
-    }
-    .players{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-    .player{
-        width: 50%;
-        justify-content: center;
-    }
-    .player-image img{
-        max-width: 100%;
-    }
-    .highlight{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 3%;
-    }
-    .content-part{
-        width: 45%;
-        margin-bottom: 20px;
-    }
-    .highlight-image{
-        width: 45%;
-    }
-    .highlight-image img{
-        max-width: 100%;
-    }
-    .section-title{
-        font-size: 22px;
-        line-height: 35px;
-    }
-    .gallery, .blogs{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 10px;
-    }
-    .gallery-item{
-        width: 48%;
-    }
-    .gallery-item img{
-        max-width: 90%;
-    }
-    .blog{
-        width: 45%;
-    }
-    .thumbnail img{
-        max-width: 100%;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
     }
 }
