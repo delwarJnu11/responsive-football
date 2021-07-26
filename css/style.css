@@ -49,6 +49,11 @@ body{
 .image-area{
     width: 556px;
     margin: 100px 0 40px 0;
+    transition: transform 0.5s ease-in-out;
+}
+.image-area :hover{
+    transform: rotate(120deg);
+    padding: 20px;
 }
 .image-area img{
     max-width: 100%;
